@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+body{
+    background-color:rgb(44, 41, 41);
+    color: aliceblue;
+}
+
+
+
+.titles{
+    margin: 8px;
+    text-align: center;
+    font-size: xx-large;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 800;
+}
+
+.downpart{  
+    margin: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+#user{
+    width:80%;
+    height: 54px;
+    border-radius: 120px;
+    font-size: larger;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:bolder;
+    text-align:center;
+    background-color: rgb(56, 51, 51);
+    color: antiquewhite;
+    }
+
+    #enter{
+        margin-left: 23px;
+        width: 80px;
+        height: 58px;
+        border-radius: 120px;
+        background-color: rgb(56, 51, 51);
+        color: antiquewhite;
+    }   
+    
+    #send{
+        font-weight: bolder;
+        font-size: 240%;
+    }
+
+
+
+
+ #reloads{
+    margin-left: 23px;
+    width: 80px;
+    height: 58px;
+    border-radius: 120px;
+    background-color: rgb(56, 51, 51);
+    color: antiquewhite;
+}   
+
+#reload{
+    font-weight: bolder;
+    font-size: 240%;
+}
+
+.upperpart{ 
+    margin: 12px;
+    border: 2px solid white;
+    border: none;
+    height: 478px;
+    width: 97%;
+    overflow: auto;
+}
+
+.chatbox{
+    margin: 15px;
+    line-height: 40px;
+    font-size: x-large;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman';
+    font-weight: 600;
+}
+
+.right_side{
+    text-align: right;
+    width: auto;
+}
+
+.same{
+    text-decoration: none;
+    color: rgb(200, 194, 103);
+    font-size: x-large;
+}
+
+.pro{
+    font-size: medium;
+    text-decoration: none;
+}
+
+@media (max-width:370px){
+
+   body{
+        width: 99vw;
+        height:  vh;
+    }
+    .downpart{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+    }
+    
+
+    #user{
+        width: 250%;
+        height:35px;
+    }
+
+    #enter{
+        margin-left: 150px;
+        height: 40px;
+        width: 50px;
+    }
+
+    #send{
+        font-size: medium;
+    }
+ 
+    #reloads{
+        margin: 6px;
+        height: 34px;
+        width: 250%;
+        margin-left: 35px;
+    }
+
+    #reload{
+        font-size: medium;
+    }
+
+    .upperpart{
+        height: 370px;
+    }
+}
+
+
+
+
+@media (max-width:790px){
+   .upperpart{
+    height: 550px;
+   }
+}
+
+@media (max-width:1030px){
+
+    .titles{
+        font-size:50px;
+    }
+
+      .upperpart{
+     height: 350px;
+    }
+
+    #user{
+        height: 40px;
+        width: 80%;
+    }
+
+    #enter{
+        height: 80px;
+    }
+    #reloads{
+        height: 80px;
+    }
+ }
